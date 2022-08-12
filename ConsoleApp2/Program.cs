@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Program
+    public class Program
     {
         /// <summary>
         /// loop 100 - 
         /// print fizz if divisible by 3
         /// print buzz if divisible by 5
         /// </summary>
-        static void divisor_result(int max)
+        public static void divisor_result(int max)
         {
             try
             {
